@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diego Fabián Villanueva Quiroz</title>
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #4a90e2, #9013fe);
+      color: #fff;
+      text-align: center;
+      overflow-y: auto; /* Habilita el scroll vertical */
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+      margin: 20px auto;
+      width: 90%;
+      max-width: 600px;
+      animation: fadeIn 1.5s ease-out;
+    }
+
+    h1, h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      background: -webkit-linear-gradient(#4a90e2, #50e3c2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textGlow 2s infinite alternate;
+    }
+
+    p {
+      font-size: 1rem;
+      margin: 10px 0 20px;
+      line-height: 1.6;
+      color: #ddd;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 1rem;
+      color: #50e3c2;
+      text-decoration: none;
+      padding: 8px 15px;
+      border: 2px solid #50e3c2;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      background: #50e3c2;
+      color: #000;
+    }
+
+    .profile-image {
+      border: 5px solid #50e3c2;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 20px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .companions-section {
+      margin-top: 30px;
+      text-align: left;
+    }
+
+    .companions-section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .companions-section li {
+      margin: 15px 0;
+      padding: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .companions-section li:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @keyframes textGlow {
+      from {
+        text-shadow: 0 0 10px #50e3c2, 0 0 20px #4a90e2;
+      }
+      to {
+        text-shadow: 0 0 20px #50e3c2, 0 0 40px #4a90e2;
+      }
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="assets/yo.jpeg" alt="Diego Fabián Villanueva Quiroz" class="profile-image">
+    <h1>Diego Fabián Villanueva Quiroz</h1>
+    <p>
+      ¡Hola! Soy un estudiante apasionado por la Ingeniería Industrial, en constante aprendizaje y siempre buscando nuevos retos. Mi código de alumno es <strong>241-05-63371</strong>. Esta página ha sido creada como tarea para el curso "Introducción a Ciencia de la Computación".
+    </p>
+    <a href="https://www.linkedin.com/in/diego-fabian-villanueva-quiroz-8a7b34301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Conecta conmigo en LinkedIn</a>
+    
+    <h2>Compañeros de Curso</h2>
+    <div class="companions-section">
+      <ul>
+        <li>
+          <strong>Dhafne Jasmin López Gomez</strong> <br>
+          <a href="https://jasmin666401.github.io/Jasmin.github-io/" target="_blank">Visitar su página</a>
+        </li>
+        <li>
+          <strong>Madai Maricel Rodriguez Vilca </strong> <br>
+          <a href="https://madymads.github.io" target="_blank">Visitar su página</a>
+        </li>
+      </ul>
+    </div>
+
+    <footer>
+      <p></p>
+      <p>© 2024 Diego Fabián Villanueva Quiroz</p>
+    </footer>
+  </div>
+
+</body>
+</html>
